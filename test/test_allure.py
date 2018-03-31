@@ -9,7 +9,7 @@ class Test_allure:
 
     def teardown(self):
         assert 1
-
+        
     @allure.step('我是测试步骤001')
     def test_al(self):
         assert 1
